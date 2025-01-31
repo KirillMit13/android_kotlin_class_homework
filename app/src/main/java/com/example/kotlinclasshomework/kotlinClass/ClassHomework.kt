@@ -9,5 +9,9 @@ package com.example.kotlinclasshomework.kotlinClass
  * Посмотри, что будет выведено в терминал
  */
 fun main() {
+    val baker = Baker()
+
+    baker.haveLunch()
+    baker.goHome()
     // TODO здесь нужно создать объект своего класса и вызывать у него методы haveLunch() и goHome()
 }
