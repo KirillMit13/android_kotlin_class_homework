@@ -31,12 +31,23 @@ class Designer : Employee() {
     }
 }
 
-
 class Teamlead : Employee() {
 
     override fun haveLunch() {
         println("Сегодня пропущу обед")
     }
 }
+
+class Baker : Employee() {
+
+     override fun haveLunch() {
+         super.haveLunch()
+        println("И немного погуляю")
+    }
+
+    override fun goHome() {
+        println("Иду домой в 17.00")
+    }
+    
 
 // TODO здесь можно создать новый класс, который будет наследоваться от класса Employee. Не забудьте переопределить методы haveLunch() и goHome()
